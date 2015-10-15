@@ -1,0 +1,10 @@
+To pull: (you only have to do the first to commands once ever )
+	git config branch.master.remote origin
+	git config branch.master.merge refs/heads/master
+	git pull
+
+Once a file is added or updated:
+	git status  				( optional, this shows untracked files in red )
+	git add --all    			( to start tracking files )
+	git commit -m 'place comment here'	
+	git push origin master			( push to bitbucket )
